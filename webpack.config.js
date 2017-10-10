@@ -14,6 +14,14 @@ module.exports = {
         host: 'localhost',
         port: 9999
     },
+    module:{
+        rules: [
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
+            }
+        ]
+    },
     plugins:[
         new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
