@@ -1,2 +1,5 @@
 ## node resource
 node_modules/
+
+## mac file sys
+.DS_Store
